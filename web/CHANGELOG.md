@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+### Security
+
+* Pin Next.js **16.4.1 → 16.4.6** and refresh the lockfile to clear
+  `SecurityFatalError` for GHSA-mfr8-8qww-v76h (upstream #7273).
+  Verified production build and local HTTP 200; see
+  [careerbot handoff](DASHBOARD_HANDOFF.md) for the install/start command.
+
 ## [0.18.0](https://github.com/career-ops-hq/career-ops/compare/web-v0.17.0...web-v0.18.0) (2026-11-10)
 
 
